@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run -it -v "$(PWD)/reports:/app/reports" -v "$(PWD)/wordlists:/app/wordlists" ghcr.io/oj/gobuster:latest $@
