@@ -3,8 +3,8 @@ h() {
     echo  ""
     echo  "Usage: ./run.sh <VHOST> <HOSTNAME[:PORT]>"
     echo  ""
-    echo  "Example: ./run.sh www.blah.com web-kwwn.blah-web.internal"
-    echo  "Example: ./run.sh api-internal.blah.com api-internal-blue-kwwn.blah-web.internal:7087"
+    echo  "Example: ./run.sh www.blah.com 10.10.10.10"
+    echo  "Example: ./run.sh www.blah.com 10.10.10.10:7087"
     echo  ""
 }
 
